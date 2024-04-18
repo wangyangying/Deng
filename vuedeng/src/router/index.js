@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 //导入组件
-import Home from '@/views/HomeView.vue';
+import HomeVue from '@/views/HomeView.vue';
 
 //定义路由关系
 const routes = [
@@ -11,9 +11,9 @@ const routes = [
   //   component: HomeView
   // },
   {
-    path:'/home',
+    path:'/',
     name: 'home',
-    component: Home
+    component: HomeVue
   }
 ]
 

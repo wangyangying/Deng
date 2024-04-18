@@ -1,11 +1,17 @@
+<script setup>
+
+</script>
+
 <template>
-  <div class="home">
-    hello
-  </div>
+  <dv-full-screen-container>
+    <div demo-bg>
+      <dv-border-box4 style="width: 400px;height: 300px">
+        <div dv-bg>dv-border-box4</div>
+      </dv-border-box4>
+    </div>
+  </dv-full-screen-container>
 </template>
 
-<script>
-export default {
-  name: 'HomeView',
-}
-</script>
+<style scoped>
+
+</style>
