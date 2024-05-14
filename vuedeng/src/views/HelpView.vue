@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="h1">This is ABOUT! </div>
+    <div class="h1">This is HELP! </div>
 </template>
 
 <style scoped>

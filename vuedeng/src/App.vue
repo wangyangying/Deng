@@ -1,11 +1,9 @@
 <script setup>
-
+  
 </script>
 
 <template>
-  <div class="bg content">
-    <router-view></router-view>
-  </div>
+  <router-view></router-view>
 </template>
 
 <style scoped>
