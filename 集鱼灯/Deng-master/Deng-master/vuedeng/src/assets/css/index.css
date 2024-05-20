@@ -1,0 +1,17 @@
+/* 删除默认的内外边距 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.module-box {
+    display: flex;
+    margin: 5;
+    justify-self: space-between;
+}
+.h1{
+    color: azure;
+    text-align: center;
+    font-weight: bold;
+}  
